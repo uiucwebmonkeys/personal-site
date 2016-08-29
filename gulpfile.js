@@ -9,7 +9,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('serve', function () {
-    gulp.src('./public')
+    gulp.src('.')
         .pipe(server({
             livereload: true,
             port: 3000,
@@ -17,7 +17,7 @@ gulp.task('serve', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch('source_sass/*.scss', ['sass']);
+    gulp.watch('sass/*.scss', ['sass']);
 });
 
 gulp.task('build', ['sass']);
