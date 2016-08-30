@@ -12,7 +12,7 @@ To duplicate the contents of this repo into your own repo, please follow the ins
 git clone --bare https://github.com/uiucwebmonkeys/personal-site.git
 # Make a bare clone of the repository
 
-cd old-repository.git
+cd personal-site.git
 git push --mirror https://github.com/<your username here>/<your repository here>.git
 # Mirror-push to the new repository
 
