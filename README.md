@@ -2,9 +2,9 @@
 
 Welcome to building out your first personal site! Here are some basic things you need to know to get developing:
 
-- *DO NOT WRITE DIRECTLY INTO THE CSS FOLDER.* Write all of your styles in the Sass files. Gulp automatically compiles your Sass into CSS so write all of your styles into the .scss files; otherwise, your styles will get overwritten.
-- Install node & npm to use gulp
-- Gulp is a build system that makes development a little easier for us by compiling our Sass and automatically reloading
+- *DO NOT WRITE DIRECTLY INTO THE CSS FOLDER.* Write all of your styles in the [Sass](http://sass-lang.com/) files. Gulp automatically compiles your Sass into CSS so write all of your styles into the .scss files; otherwise, your styles will get overwritten.
+- Install [node & npm](https://nodejs.org/en/download/) to use gulp
+- [Gulp](http://gulpjs.com/) is a build system that makes development a little easier for us by compiling our Sass and automatically reloading
 
 To duplicate the contents of this repo into your own repo, please follow the instructions [here](https://help.github.com/articles/duplicating-a-repository/).
 
@@ -21,4 +21,4 @@ Every time you want to start development with live reloading, now just type:
 gulp
 ```
 
-Before pushing your changes to Github for hosting, ensure that your Sass has compiled to CSS. To see your site on Github pages, create a branch called `gh-pages` on your repository, and go to your settings page for the url.
+Before pushing your changes to Github for hosting, ensure that your Sass has compiled to CSS. To see your site hosted with Github pages, create a branch called `gh-pages` on your repository, and go to your settings page for the url.
