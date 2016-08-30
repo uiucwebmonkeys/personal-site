@@ -21,7 +21,7 @@ rm -rf personal-site.git
 # Remove our temporary local repository
 ```
 
-To get started with this:
+To get started with development:
 
 ```bash
 npm install
