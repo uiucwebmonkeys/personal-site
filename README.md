@@ -2,6 +2,7 @@
 
 Welcome to building out your first personal site! Here are some basic things you need to know to get developing:
 
+- **You do not need to use the Sass, Gulp, or Node files** If you don't care about that stuff / you find it too complicated, delete the `sass/` folder, the `gulpfile.js` file, and the `package.json` file
 - *DO NOT WRITE DIRECTLY INTO THE CSS FOLDER.* Write all of your styles in the [Sass](http://sass-lang.com/) files. Gulp automatically compiles your Sass into CSS so write all of your styles into the .scss files; otherwise, your styles will get overwritten.
 - Install [node & npm](https://nodejs.org/en/download/) to use gulp
 - [Gulp](http://gulpjs.com/) is a build system that makes development a little easier for us by compiling our Sass and automatically reloading
@@ -21,12 +22,20 @@ rm -rf personal-site.git
 # Remove our temporary local repository
 ```
 
+Clone your repo:
+```bash
+git clone https://github.com/<your username here>/<your repository here>.git
+cd <your repository here>
+```
+
 To get started with development:
 
 ```bash
 npm install
 gulp build
 ```
+
+NOTE: you may need to install `gulp` globally
 
 Every time you want to start development with live reloading, now just type:
 
